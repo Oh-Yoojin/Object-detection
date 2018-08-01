@@ -6,4 +6,4 @@ Object detection is method performing a classification and localization of all c
 It is different method with image classification. If you want to identify the location of objects in an image, you can use object detection.
 
 #### object detection models
-* Faster RCNN
+* RCNN
