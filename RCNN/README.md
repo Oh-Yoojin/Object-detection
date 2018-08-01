@@ -21,7 +21,7 @@ As you go through the figure,
   2. Run the images in the bounding boxes through a pre-trained AlexNet and finally an SVM to see what object the image in the box is.
   3. Run the box through a linear regression model to output tighter coordinates for the object has been classified.
 
-###### Key point
+##### Key point
 * The First object detection method Using CNN
 * Region proposal + CNN
 * Use selectie search method to obtain the region proposal 
@@ -29,7 +29,7 @@ As you go through the figure,
 In this paper, there are 2000 region proposals. So it conducts 2000 times of CNN. It requires a more calculations and time.
 * Increased detection accuracy with bounding box regression
 
-###### Problem
+##### Problem
 * Test time is too slow.
   * Recalculation of all CNN paths for all region proposals
   * 13 seconds per sheet on GPU(K40)
