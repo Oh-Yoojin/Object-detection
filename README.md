@@ -7,3 +7,5 @@ It is different method with image classification. If you want to identify the lo
 
 #### object detection models
 * RCNN
+* Fast RCNN
+* Faster RCNN
