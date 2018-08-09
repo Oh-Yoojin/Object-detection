@@ -7,7 +7,7 @@ To improve the bottleneck phenomenon in Fast RCNN, Faster RCNN proposed a new re
 
 ![faster_rcnn](https://github.com/Oh-Yoojin/Object-detection/blob/master/Faster%20RCNN/pictures/faster_rcnn.png)
 
-###### Region Propasal Network
+##### Region Propasal Network
 The output of a region proposal network (RPN) is a bunch of boxes/proposals that will be examined by a classifier and regressor to eventually check the occurrence of objects.
 A Region Proposal Network (RPN) takes an image (of any size) as input and outputs a set of rectangular object proposals, each with an objectness score. The ultimate goal of this model is to share computation with a Fast RCNN object detection network.
 
@@ -19,7 +19,7 @@ The anchor boxes are just references, they are selected to have different aspect
 * Classify object/non-object classification for each anchor box - 2k scores
 * Refression for each bouncing box k - 4k coordinate
 
-###### Anchor box
+##### Anchor box
 
 ![anchor](https://github.com/Oh-Yoojin/Object-detection/blob/master/Faster%20RCNN/pictures/anchor.png)
 
