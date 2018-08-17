@@ -10,3 +10,6 @@ It is different method with image classification. If you want to identify the lo
   * RCNN
   * Fast RCNN
   * Faster RCNN
+
+* Single shot models
+  * YOLO
